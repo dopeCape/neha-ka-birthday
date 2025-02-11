@@ -21,7 +21,7 @@ export default function Home() {
             <Heart className="h-8 w-8 text-[#FF1493]" />
           </motion.div>
           <h1 className="font-dancing text-5xl md:text-6xl lg:text-7xl text-[#FF1493] mb-4">
-            Happy Birthday
+            Happy Birthday Cutieee
           </h1>
           <motion.div
             animate={{ scale: [1, 1.2, 1], rotate: [10, -10, 10] }}
@@ -36,7 +36,7 @@ export default function Home() {
           <Heart className="h-6 w-6 text-[#FF1493]" fill="#FF1493" />
         </div>
         <p className="font-quicksand text-xl text-[#333333] mt-6">
-          Every moment with you is magical...
+          Every moment with you was magical neha...
         </p>
       </motion.header>
 
@@ -50,7 +50,7 @@ export default function Home() {
           className="mb-16"
         >
           <h2 className="font-dancing text-3xl text-[#FF1493] mb-8 text-center">
-            Sweet Messages
+            Messages from me
           </h2>
           <Message />
         </motion.section>

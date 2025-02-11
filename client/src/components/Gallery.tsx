@@ -27,7 +27,8 @@ export function Gallery() {
               />
               <div className="p-4 bg-white/90">
                 <p className="text-gray-700 font-lato">{photo.caption}</p>
-                <p className="text-sm text-gray-500 mt-1">Photo by {photo.credit}</p>
+                <p className="text-sm text-gray-500 mt-1">
+                </p>
               </div>
             </CardContent>
           </Card>
@@ -49,13 +50,13 @@ export function Gallery() {
             <Card>
               <CardContent className="p-0">
                 <img
-                  src={PHOTOS.find(p => p.id === selectedId)?.url}
+                  src={PHOTOS.find((p) => p.id === selectedId)?.url}
                   alt="Selected photo"
                   className="w-full h-96 object-cover rounded-t-lg"
                 />
                 <div className="p-6">
                   <p className="text-lg font-playfair">
-                    {PHOTOS.find(p => p.id === selectedId)?.caption}
+                    {PHOTOS.find((p) => p.id === selectedId)?.caption}
                   </p>
                 </div>
               </CardContent>

@@ -1,42 +1,42 @@
 export const PHOTOS = [
   {
     id: 1,
-    url: "https://images.unsplash.com/photo-1515871204537-49a5fe66a31f",
-    caption: "Our first study session together",
-    credit: "Jamie Street"
+    url: "/images/nehaji.jpg",
+    caption: "Your home celebrating 10th result",
+    
   },
   {
     id: 2,
-    url: "https://images.unsplash.com/photo-1517607648415-b431854daa86",
-    caption: "That beautiful spring afternoon",
-    credit: "Debby Hudson"
+    url: "/images/neha1.jpg",
+    caption: "That beautiful smile on your face",
   },
   {
     id: 3,
-    url: "https://images.unsplash.com/photo-1471530090166-fbe1875839c4",
-    caption: "Remember the school festival?",
-    credit: "Dennis Flinsenberg"
+    url: "/images/neha6.jpg",
+    caption: "Remember the school teachers day?",
   },
   {
     id: 4,
-    url: "https://images.unsplash.com/photo-1594632110477-aba45f9db4c1",
-    caption: "That magical winter evening",
-    credit: "Lidia Nikole"
+    url: "/images/neha3.jpg",
+    caption: "You in Red saree look so beautiful",
   },
   {
     id: 5,
-    url: "https://images.unsplash.com/photo-1517241600143-3315d2a45e6d",
-    caption: "Our favorite spot in the library",
-    credit: "Debby Hudson"
+    url: "/images/neha4.jpg",
+    caption: "Your smile i can die on that over and over again",
+  },
+  {
+    id: 6,
+    url: "/images/neha5.jpg",
+    caption: "You remember when i clicked this photo i said dont you smile?",
   }
 ];
-
 export const MESSAGES = [
-  "Every moment with you feels like a dream",
+  "Every moment with you was felt like a dream",
   "Your smile brightens up my darkest days",
   "You're the reason I look forward to school",
   "Happy Birthday, my dear Neha!",
   "May your special day be as beautiful as you"
 ];
 
-export const SPECIAL_MESSAGE = "I've liked you since the first day I saw you. Will you be mine?";
+export const SPECIAL_MESSAGE = "I've liked you since the first day I saw you ❤️. Will be always waiting for you";
