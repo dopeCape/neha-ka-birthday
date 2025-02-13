@@ -1,8 +1,9 @@
+import React from "react"
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { MESSAGES } from "@/lib/constants";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { MESSAGES } from "../lib/constants";
+import { Card, CardContent } from "../components/ui/card";
+import { Button } from "../components/ui/button";
 import { Heart } from "lucide-react";
 
 export function Message() {

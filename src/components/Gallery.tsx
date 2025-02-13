@@ -1,7 +1,8 @@
+import React from "react"
 import { motion } from "framer-motion";
 import { useState } from "react";
-import { PHOTOS } from "@/lib/constants";
-import { Card, CardContent } from "@/components/ui/card";
+import { PHOTOS } from "../lib/constants";
+import { Card, CardContent } from "../components/ui/card";
 
 export function Gallery() {
   const [selectedId, setSelectedId] = useState<number | null>(null);

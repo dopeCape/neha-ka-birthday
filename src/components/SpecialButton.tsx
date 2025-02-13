@@ -1,8 +1,9 @@
+import React from "react"
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Button } from "@/components/ui/button";
-import { SPECIAL_MESSAGE } from "@/lib/constants";
-import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "../components/ui/button";
+import { SPECIAL_MESSAGE } from "../lib/constants";
+import { Card, CardContent } from "../components/ui/card";
 import { Heart } from "lucide-react";
 
 export function SpecialButton() {

@@ -2,8 +2,8 @@ export const PHOTOS = [
   {
     id: 1,
     url: "/images/nehaji.jpg",
-    caption: "Your home celebrating 10th result",
-    
+    caption: "Your home celebrating 11th result",
+
   },
   {
     id: 2,
