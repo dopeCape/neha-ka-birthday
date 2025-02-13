@@ -1,7 +1,8 @@
+import React from "react"
 import { motion } from "framer-motion";
-import { Gallery } from "@/components/Gallery";
-import { Message } from "@/components/Message";
-import { SpecialButton } from "@/components/SpecialButton";
+import { Gallery } from "../components/Gallery";
+import { Message } from "../components/Message";
+import { SpecialButton } from "../components/SpecialButton";
 import { Heart } from "lucide-react";
 
 export default function Home() {
